@@ -16,8 +16,8 @@ LOCAL_LDFLAGS += -Wl,--strip-all
 
 # Here you add the cpp file
 LOCAL_C_INCLUDES += $(MAIN_LOCAL_PATH)
-LOCAL_SRC_FILES := main.cpp \
-   Substrate/SubstrateDebug.cpp \
+LOCAL_SRC_FILES := Main.cpp \
+    Substrate/SubstrateDebug.cpp \
 	Substrate/SubstrateHook.cpp \
 	Substrate/SubstratePosixMemory.cpp \
 	KittyMemory/KittyMemory.cpp \
