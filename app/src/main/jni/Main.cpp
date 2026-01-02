@@ -10,8 +10,9 @@
 extern "C" {
 
 /*Time For Bools And all*/
-struct My_Patches {MemoryPatch Aim, PickupWeaponVisible, ShopAlwaysVisible, NoRecoilCtoshair, UnlimitedCliP, NoDead, CurrentTimeRound, Ammo, SmallCrosshair, AntiFlashBang, UnlimitedMoney, AManHit, UAnimMontage, USkinEditorWidget, SpawnPlayerCameraManager, UpdateCameraManager, FastLobby, AutoFireWeapons, FreezeMoney, NoGravity, SpeedHack;} hexPatches; 
-
+struct My_Patches {
+MemoryPatch Aim, PickupWeaponVisible, ShopAlwaysVisible, NoRecoilCtoshair, UnlimitedCliP, NoDead, CurrentTimeRound, Ammo, SmallCrosshair, AntiFlashBang, UnlimitedMoney, AManHit, UAnimMontage, USkinEditorWidget, SpawnPlayerCameraManager, UpdateCameraManager, FastLobby, AutoFireWeapons, FreezeMoney, NoGravity, SpeedHack;
+} hexPatches;
 
 bool aim = false;//1
 bool pickupweaponvisible = false;//2
