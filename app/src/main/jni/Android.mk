@@ -13,7 +13,7 @@ LOCAL_CFLAGS := -Wno-error=format-security -fpermissive -fvisibility=hidden -fvi
 LOCAL_CFLAGS += -fno-rtti -fno-exceptions -g0 -fomit-frame-pointer -ffunction-sections -fdata-sections
 LOCAL_CPPFLAGS += -fvisibility=hidden -ffunction-sections -fdata-sections
 LOCAL_LDFLAGS += -Wl,--strip-all
-LOCAL_LDFLAGS += "-Wl,-z,max-page-size=16384"
+LOCAL_LDFLAGS += -Wl,-z,max-page-size=16384 -Wl,-z,common-page-size=16384
 
 # Here you add the cpp file
 LOCAL_C_INCLUDES += $(MAIN_LOCAL_PATH)
